@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen(this.startQuizz, {super.key});
@@ -14,11 +15,11 @@ class StartScreen extends StatelessWidget {
           width: 300,
         ),
         const SizedBox(height: 20),
-        const Text(
+        Text(
           "The Do&Go Quizz app !",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 28,
+          style: GoogleFonts.abel(
+            color: const Color.fromARGB(255, 17, 53, 36),
+            fontSize: 26,
           ),
         ),
         const SizedBox(height: 20),
